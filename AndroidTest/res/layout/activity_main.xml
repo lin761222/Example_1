@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/TestProject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="基礎UI" />
+
+            <Button
+                android:id="@+id/TestLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Layout" />
+
+            <Button
+                android:id="@+id/TestListener"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Listener" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/BaseElement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RadioGroup" />
+
+            <Button
+                android:id="@+id/TestCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Checkbox" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/TestSpinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Spinner" />
+
+                    <Button
+                        android:id="@+id/TestListview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Listview" />
+
+                    <Button
+                        android:id="@+id/TestAdapter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TestAdapter" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/TestToast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TestToast" />
+
+            <Button
+                android:id="@+id/TestDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dialog" />
+
+            <Button
+                android:id="@+id/TestIntent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TestIntent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/TestIntent2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="暗示Intent" />
+
+            <Button
+                android:id="@+id/WebView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WebView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/TestLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/HelloSQLite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SQLite" />
+
+            <Button
+                android:id="@+id/TestSQLite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="熱線通訊家" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/copy1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="仿功能" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginLeft="17dp" >
+    </LinearLayout>
+
+</RelativeLayout>

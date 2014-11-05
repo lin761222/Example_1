@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">範例實作</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_test_project">View練習</string>
+    <string name="title_activity_test_layout">Layout練習</string>
+    <string name="title_activity_test_listener">Listener練習</string>
+    <string name="title_activity_base_element">基本元件</string>
+    <string name="title_activity_test_checkbox">CheckBox練習</string>
+    <string name="charF">&quot;\u2109&quot;</string>
+    <string name="charC">&quot;\u2103&quot;</string>
+    <string name="title_activity_test_spinner">TestSpinner</string>
+
+    <string-array name="cinemas">
+        <item>台北影城</item>
+        <item>高雄影城</item>
+        <item>板橋影城</item>
+        <item>台中影城</item>
+        <item>高雄影城</item>
+    </string-array>
+    <string-array name="sports">
+        <item>慢走</item>
+        <item>快走</item>
+        <item>跑步</item>
+        <item>游泳</item>
+        <item>自行車</item>
+    </string-array>
+    <string-array name="menuItems">
+        <item>漢堡</item>
+        <item>薯條</item>
+        <item>可樂</item>
+        <item>玉米濃湯</item>
+    </string-array>
+    <string-array name="drinkname">
+        <item>珍珠奶茶</item>
+        <item>波霸奶茶</item>
+        <item>仙草凍</item>
+        <item>檸檬汁</item>
+    </string-array>
+
+    <string name="title_activity_test_list_view">ListView練習</string>
+    <string name="title_activity_test_adapter">Adapter練習</string>
+    <string name="title_activity_test_toast">Toast練習</string>
+    <string name="title_activity_test_dialog">Dialog練習</string>
+    <string name="title_activity_copy1">仿-開店APP</string>
+    <string name="text1">顧客只要下載你的App，即可收到你發送的即時推播簡訊，跟電信公司簡訊不一樣的是，你無需知道顧客的手機號碼，而且完全免費。不管你有最新的又會消息，特別活動，甚至新門市的開幕，都可以利用推播簡訊將您的最新消息發送給所有顧客</string>
+    <string name="title1">擔心顧客在智慧型手機裡找不到你的品牌資訊嗎？想要打造一個專屬App購物車嗎？打造一個專屬的App準沒錯。\n\n顧客只要按一下，即可以在App上瀏覽你的最新上架商品與瀏覽產品照片。你還可以利用免費推播簡訊發送即時給顧客，不但可省下大筆的簡訊費用，還可讓顧客即時收到你的最新訊息。透過GPS定位，再也不用擔心顧客找不到門市的位置，有多家門市也沒有問題。經營顧客與行銷您的品牌就是這麼簡單。\n</string>
+    <string name="title_activity_test_intent">Intent練習</string>
+    <string name="title_activity_edit">編輯備忘項目</string>
+    <string name="title_activity_test_intent2">暗示Intent</string>
+    <string name="title_activity_web_view">WebView</string>
+    <string name="title_activity_test_location">取得所在位置</string>
+    <string name="title_activity_hello_sqlite">HelloSQLite</string>
+    <string name="title_activity_test_sqlite">熱線通訊家</string>
+
+</resources>

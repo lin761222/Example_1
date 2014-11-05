@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/about"
+        android:showAsAction="never"
+        android:title="關於我"/>
+    <item android:id="@+id/setGPS" android:title="設定定位服務"></item>
+    <item android:id="@+id/finish" android:title="結束程式"></item>
+
+</menu>
